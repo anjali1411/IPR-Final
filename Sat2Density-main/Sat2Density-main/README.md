@@ -25,7 +25,7 @@
 >    <img src="docs/figures/demo/case4.render.gif" alt="drawing" width="38%">
 > </p>
 
-See the [Project Page](https://sat2density.github.io/) for more results and a brief video introduction to Sat2Density.
+
 
 ## Checkpoints Downloading
 > Two checkpoints for CVACT and CVUSA can be found from [this url](https://github.com/sat2density/checkpoints/releases). You can also run the following command to download them.

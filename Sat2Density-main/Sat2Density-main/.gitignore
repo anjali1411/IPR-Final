@@ -1,0 +1,29 @@
+dataset/CVACT
+dataset/CVUSA
+test*
+*.pyc
+output*
+wandb/*
+train_*
+# dataset
+__pycache__
+pretrained_models
+command
+# *.png
+*.jpg
+*.pth
+vis/
+compute_D*
+result
+pixels.csv
+*.vtk
+**/build/
+**.egg
+**.zip
+demo_img/add_img.py
+.vscode
+vis**
+
+**/*.egg-info
+**INFO**
+results

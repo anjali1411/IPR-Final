@@ -43,9 +43,7 @@ python test.py --task=test_interpolation \
 --save_dir=results/case2
 ```
 
-## Train & Inference
-- *We trained our model using 1 V100 32GB GPU. The training phase will take about 20 hours.*
-- *For data preparation, please check out [data.md](dataset/INSTALL.md).*
+
 
 
 

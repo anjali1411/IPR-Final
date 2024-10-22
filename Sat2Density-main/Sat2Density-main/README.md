@@ -1,23 +1,6 @@
 # EE798R (INTELLIGENT PATTERN RECOGNITION) PROJECT
 
 
-> <p align="center" float="left">
->    <img src="docs/figures/demo/case1.sat.gif" alt="drawing" width="19%">  
->    <img src="docs/figures/demo-density/case1.gif" alt="drawing" width="38%">
->    <img src="docs/figures/demo/case1.render.gif" alt="drawing" width="38%">
-> </p>
-
-> <p align="center" float="left">
->    <img src="docs/figures/demo/case2.sat.gif" alt="drawing" width="19%">  
->    <img src="docs/figures/demo-density/case2.gif" alt="drawing" width="38%">
->    <img src="docs/figures/demo/case2.render.gif" alt="drawing" width="38%">
-> </p>
-
-> <p align="center" float="left">
->    <img src="docs/figures/demo/case3.sat.gif" alt="drawing" width="19%">  
->    <img src="docs/figures/demo-density/case3.gif" alt="drawing" width="38%">
->    <img src="docs/figures/demo/case3.render.gif" alt="drawing" width="38%">
-> </p>
 
 > <p align="center" float="left">
 >    <img src="docs/figures/demo/case4.sat.gif" alt="drawing" width="19%">  
@@ -28,8 +11,7 @@
 
 
 ## Checkpoints Downloading
-> Two checkpoints for CVACT and CVUSA can be found from [this url](https://github.com/sat2density/checkpoints/releases). You can also run the following command to download them.
-```
+
 bash scripts/download_weights.sh
 ```
 
@@ -103,17 +85,5 @@ CUDA_VISIBLE_DEVICES=X python train.py --yaml=sat2density_cvact
 CUDA_VISIBLE_DEVICES=X python train.py --yaml=sat2density_cvusa
 ```
 
-## Citation
-If you use this code for your research, please cite
 
-```
-@InProceedings{Qian_2023_ICCV,
-    author    = {Qian, Ming and Xiong, Jincheng and Xia, Gui-Song and Xue, Nan},
-    title     = {Sat2Density: Faithful Density Learning from Satellite-Ground Image Pairs},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    month     = {October},
-    year      = {2023},
-    pages     = {3683-3692}
-}
-```
 

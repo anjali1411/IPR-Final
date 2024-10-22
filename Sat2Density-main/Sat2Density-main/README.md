@@ -11,7 +11,7 @@
 
 
 ## Checkpoints Downloading
-
+```
 bash scripts/download_weights.sh
 ```
 
